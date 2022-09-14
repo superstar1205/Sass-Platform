@@ -1,0 +1,36 @@
+{
+  "name": "form-createor",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^0.1.1",
+    "@radix-ui/react-dropdown-menu": "^0.1.1",
+    "@radix-ui/react-switch": "^0.1.1",
+    "@tailwindcss/aspect-ratio": "^0.3.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "axios": "^0.24.0",
+    "react": "^17.0.0",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@vitejs/plugin-react": "^1.0.0",
+    "autoprefixer": "^9",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.39",
+    "less": "^4.1.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "vite": "^2.6.4"
+  }
+}
