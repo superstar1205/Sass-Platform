@@ -1,0 +1,28 @@
+.form-container>*+.h1,
+.form-container>*+.h2,
+.form-container>*+.submit {
+  margin-top: 3.5rem;
+}
+.form-container>*+.rich_text {
+  margin-top: 1rem;
+  color: #334155;
+}
+.form-container>*+.name,
+.form-container>*+.email,
+.form-container>*+.text,
+.form-container>*+.textarea,
+.form-container>*+.number,
+.form-container>*+.url,
+.form-container>*+.hidden,
+.form-container>*+.radio,
+.form-container>*+.checkbox,
+.form-container>*+.scale {
+  margin-top: 2.5rem;
+}
+
+.form-container>*+.hidden {
+  display: block !important;
+}
+.logo {
+  margin-bottom: 2rem;
+}
