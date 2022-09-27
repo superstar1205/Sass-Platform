@@ -1,0 +1,16 @@
+/*! @import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.group.dragging .group-dragging\:bg-gray-100,
+.group.settings-open .group-settings-open\:bg-gray-100,
+.group:focus-within .group-focus-within\:bg-gray-100 {
+  @apply bg-gray-100;
+}
+
+.group.dragging .group-dragging\:flex,
+.group.settings-open .group-settings-open\:flex,
+.group:focus-within .group-focus-within\:flex {
+  @apply flex;
+}
